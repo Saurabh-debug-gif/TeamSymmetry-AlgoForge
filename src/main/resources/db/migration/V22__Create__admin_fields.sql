@@ -1,0 +1,5 @@
+ALTER TABLE users
+    ADD COLUMN IF NOT EXISTS is_blocked BOOLEAN DEFAULT false;
+
+ALTER TABLE doctor_profiles
+    ADD COLUMN IF NOT EXISTS is_verified BOOLEAN DEFAULT false;

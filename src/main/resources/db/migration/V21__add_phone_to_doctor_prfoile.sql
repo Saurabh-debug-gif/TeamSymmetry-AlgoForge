@@ -1,0 +1,3 @@
+ALTER TABLE doctor_profiles
+    ADD COLUMN IF NOT EXISTS phone VARCHAR(15),
+    ADD COLUMN IF NOT EXISTS whatsapp VARCHAR(15);
